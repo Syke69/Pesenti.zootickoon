@@ -1,0 +1,22 @@
+*{ box-sizing: border-box; }
+
+:root {
+ --creme: #f7f3e9;
+ --police: Georgia, serif;
+}
+body { font-family: var(--police); margin: 0; background: var(--creme); }
+
+
+th {
+ background: var(--creme);
+ color: rgb(110, 40, 40);
+ padding-top: 15px;
+padding-bottom:15px;
+width: 9em;
+}
+tr:nth-child(even) {
+ background: #8a2d2d;
+padding: top 15px;
+padding-bottom:15px;
+width: 3em;
+}

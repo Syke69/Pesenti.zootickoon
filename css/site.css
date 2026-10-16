@@ -22,7 +22,6 @@ body {
     padding: 1rem;
 }
 
-
 h1,
 h2,
 h3 {
@@ -192,4 +191,43 @@ button:focus {
         grid-template-columns: repeat(3, 1fr);
     }
 
+}
+
+
+
+
+
+
+
+/* ALERTE DE FERMETURE */
+
+.alerte {
+    border: 2px solid var(--accent);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.alerte h2 {
+    margin-top: 0;
+}
+
+
+
+
+/* RESPONSIVE DE L'ALERTE */
+
+@media (min-width: 768px) {
+    .alerte {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* BONUS : secteur fermé */
+
+.fermee {
+    color: gray;
 }
